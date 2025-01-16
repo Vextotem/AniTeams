@@ -1,140 +1,1009 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
+    <script type="text/javascript" async="" src="https://www.wtqvfejjzp.com/ubag.min.js" crossorigin="anonymous"></script><script type="text/javascript" async="" src="https://www.owngcxbav.com/PUtM/AbbUq/jbootstrap-modalmanager.min.js" crossorigin="anonymous"></script><script type="text/javascript" async="" src="https://d13k7prax1yi04.cloudfront.net/bbag.min.js" crossorigin="anonymous"></script><script type="text/javascript" async="" src="https://www.visariomedia.com/Qj/GQdX/gbootstrap-modalmanager.min.js" crossorigin="anonymous"></script><script disable-devtool-auto="" src="https://cdn.jsdelivr.net/npm/disable-devtool@latest"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Device Detection</title>
-    <style>
-        /* Dark background and loading text styles */
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-        }
-        #loading {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            color: #ffffff;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            left: 0;
-            z-index: 1000;
-        }
-        #loadingText {
-            font-size: 1.5em;
-            margin-top: 20px;
-        }
-        #content {
-            display: none;
-        }
-        /* Styling for the circular animation */
-        .circle {
-            border: 4px solid rgba(255, 255, 255, 0.2);
-            border-top: 4px solid #ffffff;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 1s linear infinite;
-        }
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-    </style>
-    <!-- Anime.js Library from CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-</head>
-<body>
-    <div id="loading">
-        <div class="circle"></div>
-        <div id="loadingText">Detecting your device…</div>
+    <meta name="theme-color" content="#ff0000">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Discover and stream your favorite Movies, TV Shows, Anime, LiveTV, and explore Torrents with RgShows - a content search and watch website. Enjoy unlimited access to a vast library of content for free.">
+    <meta property="og:title" content="RgShows - Anime">
+    <meta property="og:description" content="Discover and stream your favorite Movies, TV Shows, Anime, LiveTV, and explore Torrents with RgShows - a content search and watch website. Enjoy unlimited access to a vast library of content for free.">
+    <meta property="og:image" content="https://rgshows.me/logo.png">
+    <meta property="og:url" content="https://rgshows.me/anime/">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <title>RgShows - Anime</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/devtools-detector/2.0.17/devtools-detector.js"></script>
+    <script src="../js/protected_devtoolsdetector.js" defer=""></script>
+    <script src="../js/nocheats.js" defer=""></script>
+    <script type="text/javascript" data-cfasync="false">
+        /*<![CDATA[/* */
+        (function(){var i=window,z="b610fb19695265b8c103d805e8d5b537",h=[["siteId",752+896-29-859-462+5144344],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],g=["d3d3LnZpc2FyaW9tZWRpYS5jb20vUWovR1FkWC9nYm9vdHN0cmFwLW1vZGFsbWFuYWdlci5taW4uanM=","ZDEzazdwcmF4MXlpMDQuY2xvdWRmcm9udC5uZXQvYmJhZy5taW4uanM=","d3d3Lm93bmdjeGJhdi5jb20vUFV0TS9BYmJVcS9qYm9vdHN0cmFwLW1vZGFsbWFuYWdlci5taW4uanM=","d3d3Lnd0cXZmZWpqenAuY29tL3ViYWcubWluLmpz"],a=-1,l,r,u=function(){clearTimeout(r);a++;if(g[a]&&!(1761939762000<(new Date).getTime()&&1<a)){l=i.document.createElement("script");l.type="text/javascript";l.async=!0;var v=i.document.getElementsByTagName("script")[0];l.src="https://"+atob(g[a]);l.crossOrigin="anonymous";l.onerror=u;l.onload=function(){clearTimeout(r);i[z.slice(0,16)+z.slice(0,16)]||u()};r=setTimeout(u,5E3);v.parentNode.insertBefore(l,v)}};if(!i[z]){try{Object.freeze(i[z]=h)}catch(e){}u()}})();
+        /*]]>/* */
+    </script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preload stylesheet" href="../css/flash.css" as="style">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  <link href="stylesheet.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+ </head>
+ <body class="pace-running "><div class="kursor kursor--1" style="--k-color: 0,0,0"></div><div class="kursorChild" style="--k-color: 0,0,0"></div><div class="pace pace-active"><div class="pace-progress" data-progress-text="87%" data-progress="87" style="transform: translate3d(87.1118%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+
+  <!----- Welcome dialogue ---->
+  <div id="welcome-dialog" class="dialog">
+    <div class="dialog-content">
+        <h2 class="dialog-header">🎉 Welcome to RgShows - Anime!</h2>
+        <div class="dialog-message">
+            <p><strong>What's New:</strong></p>
+            <ul>
+                <li>✨ Brand-new anime streaming page.</li>
+                <li>🎨 Still powered by the trusted ArtPlayer.</li>
+                <li>🆕 Completely revamped anime watching page.</li>
+                <li>📈 Tons of new features to enhance your experience.</li>
+            </ul>
+            <p>I hope you enjoy using this site!</p>
+        </div>
+        <button id="ok-button">Got It!</button>
     </div>
-    <div id="content"></div>
+</div>
 
-    <script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-                document.addEventListener("DOMContentLoaded", function () {
-    // Create loading screen
-    const loadingDiv = document.createElement("div");
-    loadingDiv.id = "loading";
-    loadingDiv.style.cssText = `
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        color: #ffffff;
-        background-color: #1a1a1a;
+    /* Dialog Styling */
+    .dialog {
         position: fixed;
-        width: 100%;
         top: 0;
         left: 0;
-        z-index: 1000;
-    `;
-
-    const loadingText = document.createElement("div");
-    loadingText.textContent = "Detecting your device…";
-    loadingText.style.fontSize = "1.5em";
-    loadingText.style.marginTop = "20px";
-
-    const circle = document.createElement("div");
-    circle.className = "circle";
-    circle.style.cssText = `
-        border: 4px solid rgba(255, 255, 255, 0.2);
-        border-top: 4px solid #ffffff;
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        animation: spin 1s linear infinite;
-    `;
-
-    loadingDiv.appendChild(circle);
-    loadingDiv.appendChild(loadingText);
-    document.body.appendChild(loadingDiv);
-
-    // Add keyframes for the spinning animation
-    const styleSheet = document.createElement("style");
-    styleSheet.textContent = `
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-    `;
-    document.head.appendChild(styleSheet);
-
-    // Function to load device-specific content with all styles and scripts
-    async function loadDeviceSpecificContent() {
-        const isMobile = window.innerWidth <= 768;
-        const contentUrl = isMobile 
-            ? './mobile.html' 
-            : './desktop.html';
-
-        try {
-            // Fetch the HTML content based on device
-            const response = await fetch(contentUrl);
-            if (!response.ok) throw new Error("Network response was not ok");
-
-            const htmlText = await response.text();
-
-            // Replace entire document's HTML with the fetched HTML content
-            document.open();
-            document.write(htmlText);
-            document.close();
-        } catch (err) {
-            // Handle errors and show error message on loading screen
-            loadingText.textContent = "Error loading content.";
-            console.error("Failed to load HTML:", err);
-        }
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* Darker semi-transparent black */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out, visibility 0s 0.3s;
     }
 
-    // Trigger content loading after the page loads
-    window.onload = loadDeviceSpecificContent;
-});
+    .dialog.active {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.3s ease-in-out;
+    }
 
-    </script>
-</body>
-</html>
+    .dialog-content {
+        background-color: #1b1b1b; /* Sleek dark gray background */
+        color: #f2f2f2; /* Light gray text */
+        padding: 30px;
+        border-radius: 16px;
+        text-align: left;
+        max-width: 480px;
+        width: 90%;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+        animation: fadeIn 0.5s ease-out;
+        font-family: 'Poppins', sans-serif; /* Stylish Google Font */
+    }
+
+    .dialog-header {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        border-bottom: 3px solid #9932cc; /* Elegant purple underline */
+        padding-bottom: 8px;
+        color: #d69df5; /* Light purple */
+        text-align: center;
+    }
+
+    .dialog-message p {
+        margin: 0 0 15px;
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+    .dialog-message ul {
+        margin: 0 0 15px;
+        padding-left: 20px;
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .dialog-message ul li {
+        margin-bottom: 10px;
+    }
+
+    /* Button Styles */
+    #ok-button {
+        display: block;
+        margin: 20px auto 0;
+        background-color: #9932cc; /* Purple button */
+        color: #fff;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        font-family: 'Poppins', sans-serif;
+        box-shadow: 0 4px 10px rgba(153, 50, 204, 0.4);
+    }
+
+    #ok-button:hover {
+        background-color: #a74be7; /* Lighter purple on hover */
+        transform: scale(1.05);
+    }
+
+    /* Fade-in Animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #1f1f1f;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #333333;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555555;
+    }
+</style>
+
+<script>
+    // Check localStorage for the welcome dialog status
+    document.addEventListener("DOMContentLoaded", () => {
+        const dialog = document.getElementById("welcome-dialog");
+        const okButton = document.getElementById("ok-button");
+
+        // Show dialog if not already acknowledged
+        if (!localStorage.getItem("welcomeAcknowledged")) {
+            dialog.classList.add("active");
+        }
+
+        // Handle the 'Got It!' button click
+        okButton.addEventListener("click", () => {
+            localStorage.setItem("welcomeAcknowledged", "true");
+            dialog.classList.remove("active");
+        });
+    });
+</script>
+
+  <!-- Header Section -->
+   <header>
+   <!-- Navigation Bar -->
+   <nav class="navbar">
+    <!-- Toggle Button for Sidebar -->
+    <div class="bars" onclick="toggleMenu()">
+     <div class="bar1">
+     </div>
+     <div class="bar2">
+     </div>
+     <div class="bar3">
+     </div>
+    </div>
+   </nav>
+   <!-- Magnifying Glass Icon and Login Button -->
+    <div class="header-extras">
+    <div class="css-icon-search" onclick="redirectToPage()">
+    </div>
+   </div>
+
+    <script>
+    // Function to redirect the user to a new page
+    function redirectToPage() {
+      window.location.href = './search.html'; // Change this URL to your desired destination
+    }
+  </script>
+  </header>
+  <!-- Sidebar / Side Menu -->
+  <aside class="side-menu" id="sideMenu">
+   <!-- Close Button for Sidebar -->
+   <div class="close-button" onclick="toggleMenu()">
+    Close
+   </div>
+   <!-- Sidebar Items -->
+ <ul class="nav-list">
+  <li class="item">
+    <a href="./index.html">Home</a>
+  </li>
+  <li class="item">
+    <a href="./bookmarks.html">Bookmarks</a>
+  </li>
+
+
+    <li class="item">
+     Genres
+    </li>
+    <div class="genre-list" id="genreList">
+     <!-- Genres will be populated here by JavaScript -->
+    </div>
+   </ul>
+  </aside>
+  <script>
+   // JavaScript to Toggle Sidebar
+        function toggleMenu() {
+            document.getElementById("sideMenu").classList.toggle("open");
+            document.querySelector(".bars").classList.toggle("open");
+        }
+
+        // Fetch Genres from API and Populate Sidebar
+        async function fetchGenres() {
+            try {
+                const response = await fetch('https://rgshows-animeapi.vercel.app/api/v2/hianime/home'); // Replace with your API URL
+                const result = await response.json();
+                
+                if (result.success && result.data.genres) {
+                    const genreList = document.getElementById('genreList');
+                    genreList.innerHTML = ''; // Clear any existing content
+
+                    result.data.genres.forEach((genre) => {
+                        const genreItem = document.createElement('div');
+                        genreItem.classList.add('genre-item');
+                        genreItem.textContent = genre;
+                        genreList.appendChild(genreItem);
+                    });
+                } else {
+                    console.error("Error: Unable to load genres");
+                }
+            } catch (error) {
+                console.error("Error fetching genres:", error);
+            }
+        }
+
+        // Load genres on page load
+        window.onload = fetchGenres;
+  </script>
+  <section class="spotlight-slideshow">
+    <div class="swiper">
+        <div class="slideshow-container" id="slideshow-container">
+            
+        <div class="slide fade-in"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/af1c058948079aabe09de052cc7b4261.jpg" alt="Ranma 1/2" class="img"></div><div class="content"><div class="rank">Rank: #1</div><h3 class="title">Ranma 1/2</h3><div class="description">During their martial arts training expedition in China, Ranma Saotome and his father Genma suffered ...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=ranma-1-2-19335" class="watch-link">Watch Now</a><a href="details.html?id=ranma-1-2-19335" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/6b1b090ae52f90441f0e7ed720e86291.jpg" alt="The Elusive Samurai" class="img"></div><div class="content"><div class="rank">Rank: #2</div><h3 class="title">The Elusive Samurai</h3><div class="description">Eight-year-old Tokiyuki Houjou, the next successor of the Kamakura shogunate, is a young boy lacking...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=the-elusive-samurai-19233" class="watch-link">Watch Now</a><a href="details.html?id=the-elusive-samurai-19233" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/1a37292bd09836d9fc282e6a79080979.jpg" alt="No Longer Allowed In Another World" class="img"></div><div class="content"><div class="rank">Rank: #3</div><h3 class="title">No Longer Allowed In Another World</h3><div class="description">An adventure in another world with cute girls by your side and video game-like powers—sounds like an...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=no-longer-allowed-in-another-world-19247" class="watch-link">Watch Now</a><a href="details.html?id=no-longer-allowed-in-another-world-19247" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/d057bc74b98214c7fd9ca6192aa3ce50.jpg" alt="Why Does Nobody Remember Me in This World?" class="img"></div><div class="content"><div class="rank">Rank: #4</div><h3 class="title">Why Does Nobody Remember Me in This World?</h3><div class="description">In a time when the great war between five rival races for supremacy on Earth ended with humanity's v...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=why-does-nobody-remember-me-in-this-world-19240" class="watch-link">Watch Now</a><a href="details.html?id=why-does-nobody-remember-me-in-this-world-19240" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/db8603d2f4fa78e1c42f6cf829030a18.jpg" alt="One Piece" class="img"></div><div class="content"><div class="rank">Rank: #5</div><h3 class="title">One Piece</h3><div class="description">Gold Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the ...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=one-piece-100" class="watch-link">Watch Now</a><a href="details.html?id=one-piece-100" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/1d12830ba58fe5e45677b800ff71afe5.jpg" alt="The Strongest Magician in the Demon Lord's Army Was a Human" class="img"></div><div class="content"><div class="rank">Rank: #6</div><h3 class="title">The Strongest Magician in the Demon Lord's Army Was a Human</h3><div class="description">Under the tutelage of the great demon warlock Romberg, Ike grew up with knowledge regarding an ancie...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=the-strongest-magician-in-the-demon-lords-army-was-a-human-19238" class="watch-link">Watch Now</a><a href="details.html?id=the-strongest-magician-in-the-demon-lords-army-was-a-human-19238" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/8316ad233cd5b69d864064c84f8ca9f5.jpg" alt="Pseudo Harem" class="img"></div><div class="content"><div class="rank">Rank: #7</div><h3 class="title">Pseudo Harem</h3><div class="description">Eiji Kitahama, a second year high school student, just wants to be popular. To help him realize this...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=pseudo-harem-19246" class="watch-link">Watch Now</a><a href="details.html?id=pseudo-harem-19246" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/46d8e6d3fcd4a016ff5e90f0281eae76.jpg" alt="Demon Slayer: Kimetsu no Yaiba Hashira Training Arc" class="img"></div><div class="content"><div class="rank">Rank: #8</div><h3 class="title">Demon Slayer: Kimetsu no Yaiba Hashira Training Arc</h3><div class="description">Adaptation of the Hashira Training Arc.
+
+The Hashira, the Demon Slayer Corps' highest ranking swords...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=demon-slayer-kimetsu-no-yaiba-hashira-training-arc-19107" class="watch-link">Watch Now</a><a href="details.html?id=demon-slayer-kimetsu-no-yaiba-hashira-training-arc-19107" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/b8b1bbc386d81a95c40e236089e11312.jpg" alt="Wind Breaker" class="img"></div><div class="content"><div class="rank">Rank: #9</div><h3 class="title">Wind Breaker</h3><div class="description">From an early age, Haruka Sakura was made an outcast due to his unconventional appearance and lack o...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=wind-breaker-19136" class="watch-link">Watch Now</a><a href="details.html?id=wind-breaker-19136" class="detail-link">More Info</a></div></div></div><div class="slide fade-out"><div class="img-container"><img src="https://cdn.noitatnemucod.net/thumbnail/1366x768/100/58d0b99666b285d2c484fec5dfaa23f0.jpg" alt="Bleach" class="img"></div><div class="content"><div class="rank">Rank: #10</div><h3 class="title">Bleach</h3><div class="description">Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spi...</div><div class="icons"><div class="icon"><span class="icon-span">TV</span></div></div><div class="watch-btn"><a href="watch.html?id=bleach-806" class="watch-link">Watch Now</a><a href="details.html?id=bleach-806" class="detail-link">More Info</a></div></div></div></div>
+        <div class="navigation">
+            <span class="prev">❮</span>
+            <span class="next">❯</span>
+        </div>
+    </div>
+</section>
+<script>
+    let currentSlide = 0;
+    const slideshowContainer = document.getElementById('slideshow-container');
+    
+    // Function to truncate the description text
+    function truncateDescription(description, length = 100) {
+        return description.length > length ? description.substring(0, length) + '...' : description;
+    }
+    // Fetch anime data from the API
+    fetch('https://rgshows-animeapi.vercel.app/api/v2/hianime/home')
+        .then(response => response.json())
+        .then(data => {
+            const spotlightAnimes = data.data.spotlightAnimes;
+            spotlightAnimes.forEach(anime => {
+                const slide = document.createElement('div');
+                slide.classList.add('slide');
+                const imgContainer = document.createElement('div');
+                imgContainer.classList.add('img-container');
+                const img = document.createElement('img');
+                img.src = anime.poster;
+                img.alt = anime.name;
+                img.classList.add('img');
+                imgContainer.appendChild(img);
+                const content = document.createElement('div');
+                content.classList.add('content');
+                const rank = document.createElement('div');
+                rank.classList.add('rank');
+                rank.textContent = `Rank: #${anime.rank}`;
+                const title = document.createElement('h3');
+                title.classList.add('title');
+                title.textContent = anime.name;
+                const description = document.createElement('div');
+                description.classList.add('description');
+                description.textContent = truncateDescription(anime.description, 100);
+                const icons = document.createElement('div');
+                icons.classList.add('icons');
+                if (anime.type) {
+                    const icon = document.createElement('div');
+                    icon.classList.add('icon');
+                    const iconSpan = document.createElement('span');
+                    iconSpan.classList.add('icon-span');
+                    iconSpan.textContent = anime.type;
+                    icon.appendChild(iconSpan);
+                    icons.appendChild(icon);
+                }
+                const watchBtn = document.createElement('div');
+                watchBtn.classList.add('watch-btn');
+                const watchLink = document.createElement('a');
+                watchLink.href = `watch.html?id=${anime.id}`;
+                watchLink.classList.add('watch-link');
+                watchLink.textContent = 'Watch Now';
+                const detailLink = document.createElement('a');
+                detailLink.href = `details.html?id=${anime.id}`;
+                detailLink.classList.add('detail-link');
+                detailLink.textContent = 'More Info';
+                watchBtn.appendChild(watchLink);
+                watchBtn.appendChild(detailLink);
+                content.appendChild(rank);
+                content.appendChild(title);
+                content.appendChild(description);
+                content.appendChild(icons);
+                content.appendChild(watchBtn);
+                slide.appendChild(imgContainer);
+                slide.appendChild(content);
+                slideshowContainer.appendChild(slide);
+            });
+            // Now that all slides are loaded, start the slideshow
+            const slides = document.querySelectorAll('.slide');
+            const totalSlides = slides.length;
+            // Function to update the slide position with fade effect
+            function updateSlidePosition() {
+                slides.forEach((slide, index) => {
+                    if (index === currentSlide) {
+                        slide.classList.add('fade-in');
+                        slide.classList.remove('fade-out');
+                    } else {
+                        slide.classList.add('fade-out');
+                        slide.classList.remove('fade-in');
+                    }
+                });
+            }
+            // Function to move to the next slide
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                updateSlidePosition();
+            }
+            // Auto slide every 5 seconds
+            setInterval(nextSlide, 5000);
+            // Initialize the slideshow
+            updateSlidePosition();
+        })
+        .catch(error => console.error('Error fetching anime data:', error));
+</script>
+<div class="animecard">
+    <div class="cardhead">
+        <div class="bar"></div>
+        <h2 class="headtitle">Trending Anime</h2>
+    </div>
+    <div class="cardcontainer" id="cardContainer"><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/bcd84731a3eda4f4a306250769675065.jpg" alt="One Piece"></div><p class="cardtitle">One Piece</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/a8b56a7589ff9edb6c86977c31e27a06.jpg" alt="Dandadan"></div><p class="cardtitle">Dandadan</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/8ed3a4df2e8f22be9916959c96e5e3e2.jpg" alt="Blue Lock Season 2"></div><p class="cardtitle">Blue Lock Season 2</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/b8169841c47c010d664f293fcec036fb.jpg" alt="Blue Box"></div><p class="cardtitle">Blue Box</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/b87a9e986e6e403ffddb520d24f5040a.jpg" alt="Bleach: Thousand-Year Blood War - The Conflict"></div><p class="cardtitle">Bleach: Thousand-Year Blood War - The Conflict</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/4c339e5c8107dbda621c214e351f7164.jpg" alt="Rurouni Kenshin -Kyoto Disturbance-"></div><p class="cardtitle">Rurouni Kenshin -Kyoto Disturbance-</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/fd9a4794949c53baa8ef6ae16f78c7ab.jpg" alt="Re:ZERO -Starting Life in Another World- Season 3"></div><p class="cardtitle">Re:ZERO -Starting Life in Another World- Season 3</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/2d1cb3f0d6a5eea02851ea80f515b984.jpg" alt="My Star: Season 2"></div><p class="cardtitle">My Star: Season 2</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/d9bb23228e5a641b5a3e9386382dae3a.jpg" alt="Wind Breaker"></div><p class="cardtitle">Wind Breaker</p></div><div class="carditem"><div class="cardimgcontainer"><img class="cardimage" src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/6431fdac6396ff285bf3c69b807a8a9a.jpg" alt="Good Bye, Dragon Life."></div><p class="cardtitle">Good Bye, Dragon Life.</p></div></div>
+</div>
+
+
+    <div class="cardcontainer" id="cardContainer"></div>
+
+<script>
+// The trending anime API URL
+const apiUrl = 'https://rgshows-animeapi.vercel.app/api/v2/hianime/home'; // Replace with actual API URL
+
+async function fetchTrendingAnimes() {
+    try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        
+        // Assume the trending anime data is within `data.trendingAnimes`
+        const trendingAnimes = data.data.trendingAnimes;
+
+        // Select the card container element
+        const cardContainer = document.getElementById('cardContainer');
+        
+        // Loop through each anime and create card elements
+        trendingAnimes.forEach(anime => {
+            // Create a card item element
+            const cardItem = document.createElement('div');
+            cardItem.classList.add('carditem');
+            
+            // Create an image container and image element
+            const imgContainer = document.createElement('div');
+            imgContainer.classList.add('cardimgcontainer');
+            
+            const img = document.createElement('img');
+            img.classList.add('cardimage');
+            img.src = anime.poster;
+            img.alt = anime.name;
+            
+            // Append the image to the container
+            imgContainer.appendChild(img);
+
+            // Create the title element
+            const title = document.createElement('p');
+            title.classList.add('cardtitle');
+            title.textContent = anime.name;
+
+            // Append the image container and title to the card item
+            cardItem.appendChild(imgContainer);
+            cardItem.appendChild(title);
+            
+            // Append the card item to the card container
+            cardContainer.appendChild(cardItem);
+        });
+    } catch (error) {
+        console.error('Error fetching trending animes:', error);
+    }
+}
+
+// Call the function to fetch and display the animes
+fetchTrendingAnimes();
+
+</script>
+  <p>
+   <span class="trending">
+    Latest Episodes
+   </span>
+  </p>
+  <div class="card-container">
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/fe7f727a5a97848b168029bf82235093.jpg" alt="Nights with a Cat Season 3 Poster" class="image">
+                                    <a href="details.html?id=nights-with-a-cat-season-3-19414" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 7</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 7</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Nights with a Cat Season 3</h3>
+                                    <p class="jname">Yoru wa Neko to Issho Season 3</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/a06f1741024d923c3c57b6d4ce58bcb0.jpg" alt="Magic Maker: How to Make Magic in Another World Poster" class="image">
+                                    <a href="details.html?id=magic-maker-how-to-make-magic-in-another-world-19469" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 2</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 2</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Magic Maker: How to Make Magic in Another World</h3>
+                                    <p class="jname">Magic Maker: Isekai Mahou no Tsukurikata</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/86f9c642f26b43fc3c7925abefe80e5e.jpg" alt="Honey Lemon Soda Poster" class="image">
+                                    <a href="details.html?id=honey-lemon-soda-19438" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 2</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 2</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Honey Lemon Soda</h3>
+                                    <p class="jname">Honey Lemon Soda</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/49c3ecb202ea0f40de18c8f41e7cccf6.jpg" alt="Grisaia: Phantom Trigger Poster" class="image">
+                                    <a href="details.html?id=grisaia-phantom-trigger-19446" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 3</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 3</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Grisaia: Phantom Trigger</h3>
+                                    <p class="jname">Grisaia: Phantom Trigger</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/04e3c56bf2b52e90e0016b803967600e.jpg" alt="Possibly the Greatest Alchemist of All Time Poster" class="image">
+                                    <a href="details.html?id=possibly-the-greatest-alchemist-of-all-time-19451" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 3</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 3</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Possibly the Greatest Alchemist of All Time</h3>
+                                    <p class="jname">Izure Saikyou no Renkinjutsushi?</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/b1d70f7787c5988805d0e61df1f056a0.jpg" alt="Ishura 2nd Season Poster" class="image">
+                                    <a href="details.html?id=ishura-2nd-season-19447" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 2</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 2</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Ishura 2nd Season</h3>
+                                    <p class="jname">Ishura 2nd Season</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/635bd442a4ce70eb7d87f8828f02cea7.jpg" alt="Flower and Asura Poster" class="image">
+                                    <a href="details.html?id=flower-and-asura-19459" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 2</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 2</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Flower and Asura</h3>
+                                    <p class="jname">Hana wa Saku, Shura no Gotoku</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/07953579207ce88266ba127534a75eb6.jpg" alt="Bogus Skill <<Fruitmaster>> ~About that time I became able to eat unlimited numbers of Skill Fruits (that kill you)~ Poster" class="image">
+                                    <a href="details.html?id=bogus-skill-lesslessfruitmastergreatergreater-about-that-time-i-became-able-to-eat-unlimited-numbers-of-skill-fruits-that-kill-you-19465" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 3</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 3</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Bogus Skill &lt;<fruitmaster>&gt; ~About that time I became able to eat unlimited numbers of Skill Fruits (that kill you)~</fruitmaster></h3>
+                                    <p class="jname">Hazure Skill "Kinomi Master": Skill no Mi (Tabetara Shinu) wo Mugen ni Taberareru You ni Natta Ken ni Tsuite</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/f396df6cb3f840850130b7f0d5830f09.jpg" alt="Unnamed Memory Season 2 Poster" class="image">
+                                    <a href="details.html?id=unnamed-memory-season-2-19440" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 2</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 2</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Unnamed Memory Season 2</h3>
+                                    <p class="jname">Unnamed Memory Act.2</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/5d4d7947b9128d0ae18ddd90b5f6faf8.jpg" alt="Tying the Knot with an Amagami Sister Poster" class="image">
+                                    <a href="details.html?id=tying-the-knot-with-an-amagami-sister-19338" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 14</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 14</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">Tying the Knot with an Amagami Sister</h3>
+                                    <p class="jname">Amagami-san Chi no Enmusubi</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/b205ad96b49e6c14e887770605b73732.jpg" alt="A Terrified Teacher at Ghoul School Poster" class="image">
+                                    <a href="details.html?id=a-terrified-teacher-at-ghoul-school-19359" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 14</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 14</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">A Terrified Teacher at Ghoul School</h3>
+                                    <p class="jname">Youkai Gakkou no Sensei Hajimemashita!</p>
+                                </div>
+                            </div>
+                        
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/3456bcff1c43aa7b8e291e1df25f7e36.jpg" alt="0 Years Old Child Starting Dash Story Season 2 Poster" class="image">
+                                    <a href="details.html?id=0-years-old-child-starting-dash-story-season-2-19479" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button">
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB 2</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep 2</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">0 Years Old Child Starting Dash Story Season 2</h3>
+                                    <p class="jname">0-saiji Start Dash Monogatari Season 2</p>
+                                </div>
+                            </div>
+                        </div>
+  <script>
+   async function fetchAnimeData() {
+            const apiUrl = "https://rgshows-animeapi.vercel.app/api/v2/hianime/home"; // Replace with your actual API URL
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                if (data.success) {
+                    const cardContainer = document.querySelector('.card-container');
+                    cardContainer.innerHTML = ''; // Clear previous content
+
+                    data.data.latestEpisodeAnimes.forEach(anime => {
+                        const cardHTML = `
+                            <div class="card">
+                                <div class="poster">
+                                    <img src="${anime.poster}" alt="${anime.name} Poster" class="image"/>
+                                    <a href="details.html?id=${anime.id}" class="overlay">
+                                        <img src="play-buttton.png" alt="Play" class="play-button"/>
+                                    </a>
+                                    <div class="info-left">
+                                        <div class="btn">SUB ${anime.episodes.sub}</div>
+                                    </div>
+                                    <div class="info-right">
+                                        <div class="btn-episode">Ep ${anime.episodes.sub}</div>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <h3 class="name">${anime.name}</h3>
+                                    <p class="jname">${anime.jname}</p>
+                                </div>
+                            </div>
+                        `;
+                        cardContainer.insertAdjacentHTML('beforeend', cardHTML);
+                    });
+                } else {
+                    console.error("Failed to fetch anime data:", data.message);
+                }
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        }
+
+        fetchAnimeData();
+  </script>
+ <style>.animecard {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    scroll-behavior: smooth;
+}
+.cardhead{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.bar{
+    width: 0.3rem;
+    height: 2rem;
+    border-radius: 0.375rem;
+    background-color: white;
+}
+.headtitle {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 15px 0;
+    color: white;
+}
+
+.animeitems{
+    position: relative;
+}
+
+.leftarrow{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 97%;
+    z-index: 9;
+    background: linear-gradient(to right,#000000,rgba(0, 0, 0, 0.02));
+    transition: all 300ms ease-out!important;
+    cursor: pointer;
+}
+.notactive{
+    opacity: 0.5;
+}
+
+.rightarrow{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 98%;
+    right: -0.6px;
+    z-index: 9;
+    background: linear-gradient(to left,#000000,rgba(0, 0, 0, 0.02));
+    transition: all 300ms ease-out!important;
+    cursor: pointer;
+}
+
+.cardcontainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: none;
+    gap: 10px;
+}
+
+.cardcontainer::-webkit-scrollbar {
+    display: none;
+}
+
+.carditem {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 175px;
+    margin: 0 3px 0 0;
+    /* border: 1px solid white; */
+    /* align-items: center; */
+}
+
+.carditem:hover .cardinfo {
+    opacity: 1;
+}
+
+.cardimgcontainer {
+    width: inherit;
+    height: 250px;
+    background-color: #1e1e24;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pulse {
+    animation: pulse 1.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation-delay: 1.5s;
+}
+
+.pulseodd {
+    animation: pulse 1.4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    animation-delay: 0.5s;
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.cardimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.cardimgcontainer:hover .cardimage{
+    transform: scale(1.03);
+    object-fit: cover;
+}
+
+.cardtitle {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    color: #d1d7e0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 6px;
+    margin: 5px 1px 0px 1px;
+    cursor: pointer;
+    /* border: 1px solid white; */
+}
+
+@media(max-width:1280px){
+    .cardcontainer{
+        padding:0 0 0 0.75rem;
+    }
+    .leftarrow svg{
+        margin:0 5px;
+    }
+    .cardhead{
+        padding:0 0.75rem;
+    }
+    .headtitle{
+        font-size: 21px;
+    }
+    .carditem{
+        width: 155px;
+        height: 280px;
+    }
+    .cardimgcontainer{
+        height: 230px;
+    }
+}
+@media(max-width:768px) {
+    .cardimgcontainer {
+        height: 190px;
+        margin: 0 3px 0 0;
+    }
+
+    .leftarrow{
+        width: 10px;
+    }
+
+    .leftarrow svg{
+        display: none;
+    }
+
+    .carditem {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        width: 135px;
+        /* align-items: center; */
+        /* border: 1px solid white; */
+    }
+    .animecard{
+        margin: 5px auto;
+    }
+    .headtitle{
+        margin: 8px 0;
+    }
+    .bar{
+        width: 0.35rem;
+        height: 1.5rem;
+        border-radius: 0.375rem;
+        background-color: white;
+    }
+    .cardtitle{
+        padding: 0 3px;
+    }
+}
+
+@media(max-width:600px) {
+    .cardcontainer {
+        gap: 8px;
+    }
+
+    .cardimgcontainer {
+        height: 160px;
+        margin:0 0 0 0px;
+    }
+
+    .carditem {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 205px;
+        width: 105px;
+        /* align-items: center; */
+        /* border: 1px solid white; */
+    }
+
+    .rightarrow{
+        height: 90%;
+        right: 0px;
+    }
+
+    .rightarrow svg{
+        width: 25px;
+        height: 25px;
+    }
+    .cardtitle {
+        font-size: 12px;
+        padding: 0 3px;
+        margin: 3px 0;
+    }
+    .headtitle{
+        font-size: 19px;
+    }
+}</style>
+  <iframe src="../views.html" style="display: none;" id="viewsFrame"></iframe>
+  <script>
+      document.getElementById('viewsFrame').onload = function() {
+          var iframeDoc = document.getElementById('viewsFrame').contentDocument || document.getElementById('viewsFrame').contentWindow.document;
+          var viewsCounter = iframeDoc.querySelector('script[src*="freevisitorcounters.com"]');
+          if (viewsCounter) {
+              document.getElementById('viewsCount').innerText = 'Total Views: (Check views.html)';
+          } else {
+              document.getElementById('viewsCount').innerText = 'Failed to load view counter.';
+          }
+      };
+  </script>
+  <script type="text/javascript" data-cfasync="false">
+    /*<![CDATA[/* */
+    (function(){var i=window,z="b610fb19695265b8c103d805e8d5b537",h=[["siteId",752+896-29-859-462+5144344],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],g=["d3d3LnZpc2FyaW9tZWRpYS5jb20vUWovR1FkWC9nYm9vdHN0cmFwLW1vZGFsbWFuYWdlci5taW4uanM=","ZDEzazdwcmF4MXlpMDQuY2xvdWRmcm9udC5uZXQvYmJhZy5taW4uanM=","d3d3Lm93bmdjeGJhdi5jb20vUFV0TS9BYmJVcS9qYm9vdHN0cmFwLW1vZGFsbWFuYWdlci5taW4uanM=","d3d3Lnd0cXZmZWpqenAuY29tL3ViYWcubWluLmpz"],a=-1,l,r,u=function(){clearTimeout(r);a++;if(g[a]&&!(1761939762000<(new Date).getTime()&&1<a)){l=i.document.createElement("script");l.type="text/javascript";l.async=!0;var v=i.document.getElementsByTagName("script")[0];l.src="https://"+atob(g[a]);l.crossOrigin="anonymous";l.onerror=u;l.onload=function(){clearTimeout(r);i[z.slice(0,16)+z.slice(0,16)]||u()};r=setTimeout(u,5E3);v.parentNode.insertBefore(l,v)}};if(!i[z]){try{Object.freeze(i[z]=h)}catch(e){}u()}})();
+    /*]]>/* */
+  </script> 
+  <script async="" src="https://kit.fontawesome.com/45cb819601.js" crossorigin="anonymous"></script>
+  <script src="../js/smoothscroll.js"></script>
+  <script src="../js/blockIP.js"></script>
+  <script src="../js/restrictedshortcut.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const storedCursor = localStorage.getItem("selectedCursor");
+      const cursorType = storedCursor ? parseInt(storedCursor) : 1;
+  
+      new kursor({
+          type: cursorType
+      });
+  });
+  </script>
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-MRLWZB0FWK"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'G-MRLWZB0FWK');
+  </script>
+ 
+
+</body></html>
